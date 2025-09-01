@@ -1,1 +1,9 @@
-// Write an expression that checks if a number is a multiple of either 3 or 5.
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    printf("%d\n", (n % 3 == 0) || (n % 5 == 0));
+    return 0;
+}
